@@ -1,0 +1,11 @@
+/.gradle
+/.idea
+/out
+/build
+*.iml
+*.ipr
+*.iws
+.env
+.env-production
+docker-compose.override.yml
+db
