@@ -15,7 +15,8 @@ RUN chown -R $APPLICATION_USER /app
 USER $APPLICATION_USER
 
 # We copy the FAT Jar we built into the /app folder and sets that folder as the working directory.
-COPY ./build/libs/monitoring.jar /app/my-application.jar
+#COPY ./build/libs/monitoring.jar /app/my-application.jar
+COPY ./monitoring.jar /app/my-application.jar
 #COPY ./resources /app/resources
 WORKDIR /app
 
